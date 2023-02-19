@@ -1,3 +1,3 @@
-module.exports.getAll = (response, request) => {
+module.exports.getAll = (request, response) => {
 
 }

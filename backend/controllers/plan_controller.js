@@ -1,19 +1,19 @@
-module.exports.getAll = (response, request) => {
+module.exports.getAll = (request, response) => {
 
 }
 
-module.exports.getById = (response, request) => {
+module.exports.getById = (request, response) => {
     
 }
 
-module.exports.delete = (response, request) => {
+module.exports.delete = (request, response) => {
     
 }
 
-module.exports.create = (response, request) => {
+module.exports.create = (request, response) => {
     
 }
 
-module.exports.update = (response, request) => {
+module.exports.update = (request, response) => {
     
 }
