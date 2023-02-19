@@ -1,3 +1,4 @@
+const keys = require('./config/keys')
 const axios = require('axios');
 
 const cryptoCurrencies = ['btc', 'eth', 'doge', 'twt', 'ton'];
@@ -19,8 +20,7 @@ const getCryptoInfo = () => {
 }
 
 const TelegramBot = require('node-telegram-bot-api');
-// random ex
-const bot = new TelegramBot('6102434381:AAHU-kS_wEQJqeEqPG6GGGY9ZhkOH7to6vg', { polling: true });
+const bot = new TelegramBot(keys.telegramApiKey, { polling: true });
 
 const schedule = require('node-schedule');
 
